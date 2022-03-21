@@ -1,0 +1,13 @@
+﻿@model List<Project1.Models.LOAI_SP>
+
+<h2>Categories</h2>
+<div class="templatemo_left_content">
+    <ul>
+        @foreach (var LOAI_SP in Model)
+        {
+            <li><a href='@Url.Action("loadlistdanhmuc","Home",new {id_loaisanpham= LOAI_SP.MALOAI })'>@LOAI_SP.Ten</a></li>
+        }
+      
+    </ul>
+</div>
+ 

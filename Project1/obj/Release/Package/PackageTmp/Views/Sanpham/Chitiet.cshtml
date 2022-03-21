@@ -1,0 +1,27 @@
+﻿@model Project1.Models.SANPHAM
+
+
+@{
+    ViewBag.Title = "Chitiet";
+}
+
+    <div id="templatemo_right_panel">
+        <div class="templatemo_right_panel_fullwidth">
+            <h1>Product Detail</h1>
+
+            <div class="product_detail_image">
+                <img src=~/@Model.Anh alt="bracelet" />
+            </div>
+            <div class="product_detail_info">
+                <h3>@Model.Ten</h3>
+                <p>Lorem ipsum nunc quis sem dolor sit amet, consectetuer adipiscing elit. Nunc quis sem nec tellus blandit tincidunt.</p>
+                <p>Maecenas adipiscing elementum vitae velit sed dui malesuada dignissim. Donec mollis aliquet ligula.</p>
+                <div class=" templatemo_price">@Model.Gia</div>
+                <p>
+                    <label>Quantity</label><input type="text" value="1" maxlength="3" />
+                </p>
+                <div class="addtocard_btn"><a href=@Url.Action("Add","Cart",new {Id =Model.MASP, soluong = 1, name=Model.Ten, gia = Model.Gia })>Add to Cart</a></div>
+            </div>
+        </div>
+    </div>
+

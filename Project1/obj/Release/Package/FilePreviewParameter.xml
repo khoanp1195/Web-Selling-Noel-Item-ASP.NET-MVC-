@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="minhquy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Project1-20201006095642.mdf;Initial Catalog=aspnet-Project1-20201006095642;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Model1-Web.config Connection String" description="" value="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=web;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model1']/@connectionString" />
+  </parameter>
+  <parameter name="Model11-Web.config Connection String" description="" value="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=web;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model11']/@connectionString" />
+  </parameter>
+  <parameter name="web-Web.config Connection String" description="" value="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=wed;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='web']/@connectionString" />
+  </parameter>
+  <parameter name="web1-Web.config Connection String" description="" value="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=wed;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='web1']/@connectionString" />
+  </parameter>
+  <parameter name="web2-Web.config Connection String" description="" value="data source=den1.mssql7.gear.host;initial catalog=minhquy;persist security info=True;user id=minhquy;password=Nx9Rr2Wc_2B~;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='web2']/@connectionString" />
+  </parameter>
+</parameters>

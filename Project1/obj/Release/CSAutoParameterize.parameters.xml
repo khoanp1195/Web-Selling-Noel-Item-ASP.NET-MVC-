@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Project1-20201006095642.mdf;Initial Catalog=aspnet-Project1-20201006095642;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="web-Web.config Connection String" description="web Connection String used in web.config by the application to access the database." defaultValue="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=wed;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='web']/@connectionString" />
+  </parameter>
+  <parameter name="web1-Web.config Connection String" description="web1 Connection String used in web.config by the application to access the database." defaultValue="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=wed;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='web1']/@connectionString" />
+  </parameter>
+  <parameter name="Model1-Web.config Connection String" description="Model1 Connection String used in web.config by the application to access the database." defaultValue="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=web;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model1']/@connectionString" />
+  </parameter>
+  <parameter name="Model11-Web.config Connection String" description="Model11 Connection String used in web.config by the application to access the database." defaultValue="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=web;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model11']/@connectionString" />
+  </parameter>
+  <parameter name="web2-Web.config Connection String" description="web2 Connection String used in web.config by the application to access the database." defaultValue="data source=den1.mssql7.gear.host;initial catalog=minhquy;persist security info=True;user id=minhquy;password=Nx9Rr2Wc_2B~;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='web2']/@connectionString" />
+  </parameter>
+  <parameter name="Model12-Web.config Connection String" description="Model12 Connection String used in web.config by the application to access the database." defaultValue="data source=LAPTOP-1ABFDIDK\SQLEXPRESS;initial catalog=web;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model12']/@connectionString" />
+  </parameter>
+  <parameter name="Model13-Web.config Connection String" description="Model13 Connection String used in web.config by the application to access the database." defaultValue="data source=den1.mssql7.gear.host;initial catalog=minhquy;persist security info=True;user id=minhquy;password=Nx9Rr2Wc_2B~;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ASUS\\Documents\\Project1\\Project1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model13']/@connectionString" />
+  </parameter>
+</parameters>

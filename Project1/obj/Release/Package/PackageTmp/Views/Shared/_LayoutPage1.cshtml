@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--  Designed by w w w . t e m p l a t e m o . c o m  -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Christmas Layout - free website template</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="~/templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="templatemo_container">
+
+        <div id="templatemo_top_panel">
+            <div id="templatemo_header">
+                Christmas Website
+            </div>
+            <div id="templatemo_shoppingcart">
+                <h1>Shopping Cart</h1>
+                Total: <span>5 items</span>
+            </div>
+
+        </div> <!-- end of top panel -->
+        <div id="templatemo_banner">
+            <div id="templatemo_banner_text">
+                <h1>Christmas Time Again</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc quis sem nec tellus blandit tincidunt. Duis vitae velit sed dui malesuada dignissim. Donec mollis aliquet ligula.
+                </p>
+                <div class="more_button"><a href="#">View  All</a></div>
+            </div>
+        </div> <!-- end of banner -->
+
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href=@Url.Action("Index","Home") class="current">Home</a></li>
+                @*<li><a href="subpage.html">Services</a></li>*@
+                <li><a href="subpage.html">Products</a></li>
+                <li><a href="subpage.html">Special</a></li>
+                <li><a href=@Url.Action("Register","User")>Đăng Ký</a></li>
+                @if (Session["user"] != null)
+                {
+                    <li>Chào Bạn @Session["user"]<a href="@Url.Action("Logout","user")" class="nav6">Đăng xuất</a></li>
+                }
+                else
+                {
+                    <li><a href="@Url.Action("Login","user")" class="nav6">Đăng nhập</a></li>
+                }
+
+
+                @*<li><a href="subpage.html" class="lastmenu">Contact Us</a></li>*@
+            </ul>
+        </div> <!-- end of menu -->
+
+        <div id="templatemo_content">
+
+            <div id="templatemo_left_panel">
+                <div class="templatemo_blue_panel">
+                    <h2>Search</h2>
+                    <div class="templatemo_left_content">
+                        <form method="get" action="#">
+                            <div class="form_row"><input name="email_address" type="text" class="inputfield" id="email_addremss" maxlength="60" /></div>
+                            <input class="button" type="submit" name="Search" value="Search" />
+                        </form>
+                    </div>
+                </div>
+                <div class="templatemo_blue_panel_bottom"></div>
+
+                <div class="templatemo_red_panel">
+                    @Html.Action("LoadCategory","Home")
+                </div>
+                <div class="templatemo_red_panel_bottom"></div>
+
+                @RenderSection("Header",false)
+               
+
+            </div> <!-- end of left panel -->
+
+            <div id="templatemo_right_panel">
+                @RenderBody()
+            </div> <!-- end of right panel -->
+
+        </div> <!-- end of content -->
+        <div id="templatemo_content_bottom">
+        </div>
+
+        <div id="templatemo_footer">
+            <a href="#">Home</a> | <a href="#">Services</a> | <a href="#">Products</a> | <a href="#">Special</a> | <a href="#">My Account</a> | <a href="#">Contact Us</a><br />
+            Copyright © 2008 <a href="#"><strong>Your Company Name</strong></a>
+            <!-- Credit: www.templatemo.com -->
+        </div> <!-- end of footer -->
+        <!--  Designed by w w w . t e m p l a t e m o . c o m  -->
+    </div> <!-- end of container -->
+    <!-- templatemo 045 christmas -->
+    <!--
+    Christmas Template
+    http://www.templatemo.com/preview/templatemo_045_christmas
+    -->
+</body>
+</html>
